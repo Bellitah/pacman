@@ -14,7 +14,8 @@ body {
 
 .pac-real {
     float: left;
-    width: 80px;
+    width: 100px;
+    margin: 0 0 0 -15px;
 }
 
 .escrita-pac {
@@ -70,10 +71,10 @@ body {
     padding: 50px;
 }
 
-.vermelho {
+.jogo {
     float: right;
     width: 150px;
-    margin: 0 30px 0 0;
+    margin: 0;
 }
 
 .criacao {
@@ -81,4 +82,69 @@ body {
     text-align: left; 
     margin: -20px 0 0 -30px ;
     padding: 50px;
+}
+
+@media (min-width: 600px) {
+    .entrada {
+        margin: 0 50px 0 0 ;
+    }
+
+    .pac-real{
+        width: 15%;
+        margin: 20px 0 0 30px;
+    }
+
+    .escrita-pac{
+        width: 20%;
+        margin: 70px 0 0 0;
+    }
+
+    .botao-jogar {
+        margin: 30px;
+        padding: 1.5%;
+        font-size: 20px;
+    }
+
+    .botao-jogar:hover{
+        background-color: #444444;
+        transform: scale(1.2);
+    }
+
+    .historia {
+        margin: 0 60px 0 0;
+    }
+
+    .titulo {
+        margin: 0 40px 0 0;
+        font-size: 26px;
+    }
+
+    .subtitulo {
+        margin: -5px 40px 20px 0;
+        font-size: 20px;
+    }
+
+    .descricao {
+        margin: 0 0 0 -300px;
+        padding: 0 400px ;
+        font-size: 20px;
+    }
+
+    .pac-correndo {
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #F2522E;
+    }
+
+    .jogo {
+        margin: 0 40px 0 0;
+    }
+
+    .criacao{
+        margin: 0 0 0 -300px;
+        padding: 0 400px ;
+        font-size: 20px;
+    }
 }
