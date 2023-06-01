@@ -71,7 +71,14 @@ body {
 }
 
 .vermelho {
-    display: flex;
-    justify-content: flex-end;
+    float: right;
     width: 150px;
+    margin: 0 30px 0 0;
+}
+
+.criacao {
+    font-size: 16px;
+    text-align: left; 
+    margin: -20px 0 0 -30px ;
+    padding: 50px;
 }
