@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient( #0D0D0D,#311FA6, #0D0D0D);
+}
+
+.entrada {
+    margin: 20px;
+}
+
+.pac-real {
+    float: left;
+    width: 80px;
+}
+
+.escrita-pac {
+    margin: 20px 0 0 0;
+    width: 130px;
+    align-items: center;
+}
+
+.botao-jogar {
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    color: #FCCF00;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #222222;
+    cursor: pointer;
+    border: 2px solid #3B1F87;
+    border-radius: 10px;
+    /* transition: 1s all; */
+    font-family: 'Russo One', sans-serif;
+}
+
+.botao-jogar:active {
+    background-color: #444444;
+    transform: scale(1.2);
+}
+
+.historia {
+    margin: 50px 20px 0 0;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.titulo {
+    display: flex;
+    justify-content: flex-end;
+    color: yellow;
+    font-size: 20px;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    margin: 0 20px 0 0;
+}
+
+.descricao {
+    font-size: 16px;
+    text-align: left; 
+    margin: -20px 0 0 -30px ;
+    padding: 50px;
+}
+
+.vermelho {
+    display: flex;
+    justify-content: flex-end;
+    width: 150px;
+}
