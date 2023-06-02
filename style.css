@@ -84,6 +84,24 @@ body {
     padding: 50px;
 }
 
+.personagem {
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.pers {
+    width: 100px;
+}
+
+.cor {
+    color: white;
+}
+
+.eles-todos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+}
+
 @media (min-width: 600px) {
     .entrada {
         margin: 0 50px 0 0 ;
