@@ -72,7 +72,7 @@ body {
 }
 
 .pac-correndo {
-    width: 100%;
+    width: 104%;
     height: 100%;
 }
 
@@ -89,18 +89,27 @@ body {
     padding: 50px;
 }
 
-main {
+.caixa-roxa {
     background-color: #4227f2;
     border-radius: 10px 10px 0 0;
     margin: 10px;
+    padding: 20px 0 0 0;
 }
 
-main p {
+.caixa-roxa p {
     font-size: 24px;
     color: white;
     text-align: center;
     font-family: 'Kanit', sans-serif;
     margin: 10px 0 0 0;
+}
+
+.carac {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    margin: 10px;
 }
 
 .pers {
@@ -201,13 +210,14 @@ main p {
         font-size: 20px;
     }
 
-    main {
-        width: 97%;
+    .caixa-roxa {
+        width: 96%;
+        margin: 0 0 0 1.5%;
     }
 
-    main p {
+    .caixa-roxa p {
         font-size: 27px;
-        margin: 0px 0 0 0;
+        text-align: center;
     }
 
     .eles {
