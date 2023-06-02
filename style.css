@@ -19,12 +19,13 @@ body {
 }
 
 .escrita-pac {
-    margin: 20px 0 0 0;
-    width: 130px;
+    margin: 30px 0 0 -30px;
+    width: 150px;
     align-items: center;
 }
 
 .botao-jogar {
+    margin: 10px 10px 0 0 ;
     float: right;
     text-decoration: none;
     text-align: center;
@@ -35,7 +36,6 @@ body {
     cursor: pointer;
     border: 2px solid #3B1F87;
     border-radius: 10px;
-    /* transition: 1s all; */
     font-family: 'Russo One', sans-serif;
 }
 
@@ -45,16 +45,17 @@ body {
 }
 
 .historia {
-    margin: 50px 20px 0 0;
     color: white;
     font-family: 'Kanit', sans-serif;
 }
 
 .titulo {
+    margin: 50px 0 5px 0;
     display: flex;
     justify-content: flex-end;
     color: yellow;
     font-size: 30px;
+    font-family: 'Silkscreen', cursive;
 }
 
 .subtitulo {
@@ -66,9 +67,8 @@ body {
 
 .descricao {
     font-size: 16px;
-    text-align: left; 
-    margin: -20px 0 0 -30px ;
-    padding: 50px;
+    text-align: center; 
+    margin: 30px;
 }
 
 .pac-correndo {
@@ -85,15 +85,16 @@ body {
 .criacao {
     font-size: 100%;
     text-align: left; 
-    margin: -20px 0 0 -30px ;
-    padding: 50px;
+    margin: 20px 0 0 30px ;
+    padding: 10px;
 }
 
 .caixa-roxa {
     background-color: #4227f2;
     border-radius: 30px 30px 0 0;
     margin: 20px;
-    padding: 20px 0 0 0;
+    padding: 20px 0 0 15px;
+    list-style-type: none;
 }
 
 .caixa-roxa p {
@@ -102,6 +103,7 @@ body {
     text-align: center;
     font-family: 'Kanit', sans-serif;
     margin: 10px 0 0 0;
+    font-family: 'Silkscreen', cursive;
 }
 
 h1 {
@@ -109,7 +111,7 @@ h1 {
     color: white;
     text-align: center;
     font-family: 'Kanit', sans-serif;
-    margin: 10px;
+    padding: 35px;
 }
 
 .pers {
@@ -177,7 +179,7 @@ h1 {
     }
 
     .titulo {
-        margin: 0 40px 0 0;
+        margin: 30px 40px 0 0;
         font-size: 400%;
     }
 
@@ -187,8 +189,8 @@ h1 {
     }
 
     .descricao {
-        margin: 0 0 0 -300px;
-        padding: 0 400px;
+        margin: 30px 0 0 0;
+        padding: 0 50px;
         font-size: 200%;
     }
 
@@ -214,17 +216,21 @@ h1 {
 
     .caixa-roxa {
         width: 96%;
-        margin: 0 0 0 1.5%;
+        margin: 0 0 0 2.0%;
     } 
+
+    .caixa-roxa p{
+        font-size: 200%;
+    }
 
     .eles {
         display: grid;
-        grid-template-columns: 20% 2% 20% 2% 20% 2% 20%;
+        grid-template-columns: 20% 10% 20% 10% 20%;
     }
 
     .eles li{
         width: 100%;
-        margin: 0 60% ;
+        margin: 0 80% ;
         border-radius: 20px;
         border: 7px solid #f2b84b;
         box-shadow: 8px 8px 0 0;
