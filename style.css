@@ -71,6 +71,10 @@ body {
     padding: 50px;
 }
 
+.pac-correndo {
+    whidth: 80%;
+}
+
 .jogo {
     float: right;
     width: 100px;
