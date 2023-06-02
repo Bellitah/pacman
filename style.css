@@ -73,12 +73,12 @@ body {
 
 .pac-correndo {
     width: 100%;
-    heigth: 100%;
+    height: 100%;
 }
 
 .jogo {
     float: right;
-    width: 100px;
+    width: 150px;
     margin: 0;
 }
 
@@ -89,22 +89,50 @@ body {
     padding: 50px;
 }
 
-.personagem {
+main {
+    background-color: #4227f2;
+    border-radius: 10px 10px 0 0;
+    margin: 10px;
+}
+
+main p {
+    font-size: 24px;
+    color: white;
     text-align: center;
-    margin: 50px 0 0 0;
+    font-family: 'Kanit', sans-serif;
+    margin: 10px 0 0 0;
 }
 
 .pers {
     width: 100px;
 }
 
-.cor {
-    color: white;
+.eles {
+    width: 86%;
+	padding: 18px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.eles-todos {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20% ;
+.eles li {
+	width: 45%;
+	margin: 2.5%;
+	padding: 30px 20px;
+    background-color: #F2522E;
+	box-sizing: border-box;
+    box-shadow: 4px 4px 0 0 ;
+    border: 2px solid #f2b84b;
+	border-radius: 10px;
+}
+
+.eles li:hover {
+    border-color: #C78C19;
+}
+
+.eles li:active {
+	border-color: #088C19;
 }
 
 @media (min-width: 600px) {
@@ -149,7 +177,7 @@ body {
 
     .descricao {
         margin: 0 0 0 -300px;
-        padding: 0 400px ;
+        padding: 0 400px;
         font-size: 20px;
     }
 
@@ -163,11 +191,37 @@ body {
 
     .jogo {
         margin: 0 40px 0 0;
+        float: left;
+        margin: 0 5% 2% 10%;
     }
 
     .criacao{
-        margin: 0 0 0 -300px;
+        margin: 0 0 50px -300px;
         padding: 0 400px ;
         font-size: 20px;
+    }
+
+    main {
+        width: 97%;
+    }
+
+    main p {
+        font-size: 27px;
+        margin: 0px 0 0 0;
+    }
+
+    .eles {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 23% 23% 23% 23%;
+        margin: 0;
+    }
+
+    .eles li{
+        width: 100%;
+    }
+
+    .pers {
+        width: 200px;
     }
 }
