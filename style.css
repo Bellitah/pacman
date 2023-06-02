@@ -54,7 +54,7 @@ body {
     display: flex;
     justify-content: flex-end;
     color: yellow;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .subtitulo {
@@ -77,13 +77,13 @@ body {
 }
 
 .jogo {
-    float: right;
+    float: left;
     width: 150px;
-    margin: 0;
+    margin: 40px 20px 20px 40px;
 }
 
 .criacao {
-    font-size: 16px;
+    font-size: 100%;
     text-align: left; 
     margin: -20px 0 0 -30px ;
     padding: 50px;
@@ -91,21 +91,21 @@ body {
 
 .caixa-roxa {
     background-color: #4227f2;
-    border-radius: 10px 10px 0 0;
-    margin: 10px;
+    border-radius: 30px 30px 0 0;
+    margin: 20px;
     padding: 20px 0 0 0;
 }
 
 .caixa-roxa p {
-    font-size: 24px;
+    font-size: 100%;
     color: white;
     text-align: center;
     font-family: 'Kanit', sans-serif;
     margin: 10px 0 0 0;
 }
 
-.carac {
-    font-size: 24px;
+h1 {
+    font-size: 200%;
     color: white;
     text-align: center;
     font-family: 'Kanit', sans-serif;
@@ -113,7 +113,7 @@ body {
 }
 
 .pers {
-    width: 100px;
+    width: 90%;
 }
 
 .eles {
@@ -131,18 +131,20 @@ body {
 	padding: 30px 20px;
     background-color: #F2522E;
 	box-sizing: border-box;
-    box-shadow: 4px 4px 0 0 ;
-    border: 2px solid #f2b84b;
+    box-shadow: 5px 5px 0 0 ;
+    border: 4px solid #f2b84b;
 	border-radius: 10px;
 }
 
 .eles li:hover {
-    border-color: #C78C19;
+    border-color: #a1700e;
 }
 
 .eles li:active {
 	border-color: #088C19;
 }
+
+
 
 @media (min-width: 600px) {
     .entrada {
@@ -162,7 +164,7 @@ body {
     .botao-jogar {
         margin: 30px;
         padding: 1.5%;
-        font-size: 20px;
+        font-size: 200%;
     }
 
     .botao-jogar:hover{
@@ -176,62 +178,58 @@ body {
 
     .titulo {
         margin: 0 40px 0 0;
-        font-size: 26px;
+        font-size: 400%;
     }
 
     .subtitulo {
         margin: -5px 40px 20px 0;
-        font-size: 20px;
+        font-size: 200%;
     }
 
     .descricao {
         margin: 0 0 0 -300px;
         padding: 0 400px;
-        font-size: 20px;
+        font-size: 200%;
     }
 
     .pac-correndo {
-        width: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 2px solid #F2522E;
+        position: relative;
+        left: 12%;
+        width: 14%;
+        float: initial;
+        margin: 3%;
+
     }
 
     .jogo {
-        margin: 0 40px 0 0;
-        float: left;
-        margin: 0 5% 2% 10%;
+        margin: 2% 3% 0 8%;
+        width: 17%;
     }
 
     .criacao{
-        margin: 0 0 50px -300px;
-        padding: 0 400px ;
-        font-size: 20px;
+        margin: 0 0 100px 0;
+        padding: 0 100px ;
+        font-size: 200%;
     }
 
     .caixa-roxa {
         width: 96%;
         margin: 0 0 0 1.5%;
-    }
-
-    .caixa-roxa p {
-        font-size: 27px;
-        text-align: center;
-    }
+    } 
 
     .eles {
-        width: 100%;
         display: grid;
-        grid-template-columns: 23% 23% 23% 23%;
-        margin: 0;
+        grid-template-columns: 20% 2% 20% 2% 20% 2% 20%;
     }
 
     .eles li{
         width: 100%;
+        margin: 0 60% ;
+        border-radius: 20px;
+        border: 7px solid #f2b84b;
+        box-shadow: 8px 8px 0 0;
     }
-
-    .pers {
-        width: 200px;
+    .eles li:hover {
+        border-color: #a1700e;
     }
 }
