@@ -53,7 +53,7 @@ body {
     margin: 50px 0 5px 0;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to right, #fae714,#fae714, #ee8426, #f31920, #f31920);
+    background-image: linear-gradient(to right, #fae714, #ee8426, #f31920,  #ff92b2, #0fb3e9, #ee8426);
     background-clip: text;
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
