@@ -53,7 +53,11 @@ body {
     margin: 50px 0 5px 0;
     display: flex;
     justify-content: center;
-    color: yellow;
+    background-image: linear-gradient(to right, #fae714,#fae714, #ee8426, #f31920, #f31920);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    color: black;
     font-size: 27px;
     font-family: 'Silkscreen', cursive;
 }
